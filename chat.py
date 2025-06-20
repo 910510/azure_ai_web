@@ -90,7 +90,7 @@ def run_rag_with_fallback(user_query: str) -> str:
         prompt = f"""
         문서 검색 결과가 없습니다.
         사용자 질문: "{user_query}"
-        이 질문에 대해 일반적인 지식을 바탕으로 정중하게 답변해 주세요.
+        이 질문에 대해 일반적인 지식을 바탕으로 정중하게 답변해 주세요..
         """
     else:
         # 검색된 문서를 context로 사용
